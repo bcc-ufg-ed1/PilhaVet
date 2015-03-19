@@ -1,6 +1,7 @@
 # Codeblocks
 *.depend
 *.layout
+
 # Object files
 *.o
 *.ko
