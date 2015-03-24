@@ -22,6 +22,7 @@ int liberarPilha(PilhaVet* pilha);
 int estahVazia(PilhaVet* pilha);
 int estahCheia(PilhaVet* pilha);
 int empilhar(int item, PilhaVet* pilha);
+int desempilharSemRetorno(PilhaVet* pilha);
 int desempilhar(PilhaVet* pilha, int* item);
 int obterTopo(PilhaVet* pilha, int* item);
 

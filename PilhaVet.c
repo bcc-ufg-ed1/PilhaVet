@@ -52,6 +52,15 @@ int desempilhar(PilhaVet* pilha, int* item) {
     return OK;
 }
 
+int desempilharSemRetorno(PilhaVet* pilha) {
+    if (pilha == NULL)
+        return ESTRUTURA_NAO_INICIALIZADA;
+    if (estahVazia(pilha))
+        return ESTRUTURA_VAZIA;
+    pilha->topo--;
+    return OK;
+}
+
 int obterTopo(PilhaVet* pilha, int* item) {
     if (pilha == NULL)
         return ESTRUTURA_NAO_INICIALIZADA;
