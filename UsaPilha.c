@@ -21,6 +21,7 @@ int main() {
     empilhar(1, minhaPilha);
     empilhar(2, minhaPilha);
     empilhar(3, minhaPilha);
+    desempilharSemRetorno(minhaPilha);
     imprimirPilha(minhaPilha);
     liberarPilha(minhaPilha);
 }
