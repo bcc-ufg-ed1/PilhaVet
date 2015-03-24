@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "PilhaVet.h"
 
 void imprimirPilha(PilhaVet* p) {
